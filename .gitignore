@@ -1,0 +1,21 @@
+# Virtual environments
+Jarvis-v1/
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Downloaded models and voices (see download_model.py / download_voice.py)
+models/
+
+# Runtime output
+tts_output/
+*.log
+
+# Local working material, backups, editor settings
+Stt build/
+*.zip
+.vscode/
+.idea/

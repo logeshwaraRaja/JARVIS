@@ -1,0 +1,11 @@
+sherpa-onnx==2.0.1       # speech-to-text for ENGINE = "nemotron" (the default, see config.py)
+onnxruntime==1.32.0      # speech-to-text for ENGINE = "nemotron_local" (NemotronLocalEngine in engines.py)
+sounddevice==0.5.6       # microphone capture and Piper playback
+numpy==2.5.4
+pynput==1.8.2            # global hotkeys, simulated Ctrl+C / Ctrl+V
+pyperclip==1.11.0        # clipboard
+pystray==0.19.5          # tray icon
+pillow==13.0.0           # mic icon rendering
+piper-tts==1.8.0         # text-to-speech for TTS_ENGINE = "piper" (GPL-3.0, see README "Third-party components")
+# Optional fallback speech engine (set ENGINE = "whisper" in config.py; no voice triggers with it):
+# faster-whisper
